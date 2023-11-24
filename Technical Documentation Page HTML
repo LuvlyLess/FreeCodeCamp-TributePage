@@ -7,50 +7,44 @@
     <nav id="navbar">
       <header>Technical Documentation</header>
       <ul>
-        <li><a class="nav-link" href="ChillandThrill">Chill & Thrill</a>
-          
+        <li><a class="nav-link" href="#Chill_Thrill">Chill Thrill</a>
         </li>
+
+        <li><a class="nav-link" href="#Scream_Scene">Scream Scene</a>
+        </li>
+
         <li>
-          <a class="nav-link" href="#Scream Scene"
-            >Scream Scene</a
+          <a class="nav-link" href="#Horror_Hub">Horror Hub</a>
+        </li>
+
+        <li><a class="nav-link" href="#Fear_Flicks">Fear Flicks</a></li>
+        <li><a class="nav-link" href="#Dread_Domain">Dread Domain</a></li>
+        <li>
+          <a class="nav-link" href="#Terror_Theater">Terror Theater</a
           >
         </li>
+        <li><a class="nav-link" href="#Spooky_Screen">Spooky Screen</a></li>
         <li>
-          <a class="nav-link" href="#Horror Hub"
-            >Horror Hub</a
-          >
+          <a class="nav-link" href="#Nightmare_Nook">Nightmare Nook</a>
         </li>
-        <li><a class="nav-link" href="#Fear Flicks">Fear Flicks</a></li>
-        <li><a class="nav-link" href="#Dread Domain">Dread Domain</a></li>
+        <li><a class="nav-link" href="#Dark_Reels">Dark Reels</a></li>
+        <li><a class="nav-link" href="#Eerie_Entertainment">Eerie Entertainment</a></li>
         <li>
-          <a class="nav-link" href="#Terror Theater"
-            >Terror Theater</a
-          >
-        </li>
-        <li><a class="nav-link" href="#Spooky Screen">Spooky Screen</a></li>
-        <li>
-          <a class="nav-link" href="#Nightmare Nook">Nightmare Nook</a>
-        </li>
-        <li><a class="nav-link" href="#Dark Reels">Dark Reels</a></li>
-        <li><a class="nav-link" href="#Eerie Entertainment">Eerie Entertainment</a></li>
-        <li>
-          <a class="nav-link" href="#Fright Feature"
+          <a class="nav-link" href="#Fright_Feature"
             >Fright Feature</a
           >
         </li>
-        <li><a class="nav-link" href="#Ghastly Gallery">Ghastly Gallery</a></li>
+        <li><a class="nav-link" href="#Ghastly_Gallery">Ghastly Gallery</a></li>
         <li>
-          <a class="nav-link" href="#Macabre Cinema"
-            >Macabre Cinema</a
-          >
+          <a class="nav-link" href="#Macabre_Cinema">Macabre Cinema</a>
         </li>
-        <li><a class="nav-link" href="#Creep Corner">Creep Corner</a></li>
+        <li><a class="nav-link" href="#Creep_corner">Creep Corner</a></li>
       </ul>
     </nav>
     <main id="main-doc">
-      <section class="main-section" id="ChillandThrill">
+      <section id="Chill_Thrill" class="main-section">
         
-        <header>Chill & Thrill Unleashed</header>
+        <header >Chill Thrill</header>
         <article>
           <p>
             Get ready to experience spine-tingling suspense and heart-pounding terror in our curated collection of chilling horror films. Whether you're a seasoned horror enthusiast or a brave beginner, our selection is sure to keep you on the edge of your seat.
@@ -66,8 +60,8 @@
           
         </article>
       </section>
-      <section class="main-section" id="Scream Scene">
-        <header>Scream Scene Showcase</header>
+      <section class="main-section" id="Scream_Scene">
+        <header>Scream Scene</header>
         <article>
           <p>Step into the Scream Scene, where every film is a masterclass in eliciting screams and gasps. Explore a diverse array of horror subgenres, from classic slashers to psychological thrillers, and immerse yourself in the art of fear.</p>
 
@@ -82,7 +76,7 @@
           </ul>
         </article>
       </section>
-      <section class="main-section" id="Horror Hub">
+      <section class="main-section" id="Horror_Hub">
         <header>Horror Hub</header>
         <article>
           <p>
@@ -97,14 +91,14 @@
           </p>
         </article>
       </section>
-      <section class="main-section" id="Fear Flicks">
+      <section class="main-section" id="Fear_Flicks">
         <header>Fear Flicks</header>
         <article>
           <p class="pgraphs">
           Embark on a journey through our Fear Flicks Frontier, where each film is a carefully selected expedition into the darkest realms of horror. Brace yourself for a cinematic experience that goes beyond the ordinary.</p>
         </article>
       </section>
-      <section class="main-section" id="Dread Domain">
+      <section class="main-section" id="Dread_Domain">
         <header>Dread Domain</header>
         <article> <p>
           Explore the Dread Domain, where nightmares come to life on the silver screen. Our curated collection of horror films transcends the ordinary, offering a portal into the realm of the unknown.
@@ -113,30 +107,30 @@
         </p> 
         </article>
       </section>
-      <section class="main-section" id="Terror Theater">
-        <header>Terror Theater Thrills</header>
+      <section class="main-section" id="Terror_Theater">
+        <header>Terror Theater</header>
         <article><p>
           Prepare for an unforgettable night at the Terror Theater. From haunted houses to supernatural encounters, our carefully curated films promise to deliver thrills that will haunt your dreams.
           </p>
         </article>
       </section>
-      <section class="main-section" id="Spooky Screen">
-        <header>Spooky Screen Spectacle</header>
+      <section class="main-section" id="Spooky_Screen">
+        <header>Spooky Screen</header>
         <article>
           <p>
             Witness the Spooky Screen Spectacle, a collection of horror films that range from eerie classics to contemporary nightmares. Immerse yourself in tales that linger long after the credits roll.
           </p>
         </article>
       </section>
-      <section class="main-section" id="Nightmare Nook">
-        <header>Nightmare Nook Narratives</header>
+      <section class="main-section" id="Nightmare_Nook">
+        <header>Nightmare Nook</header>
         <article>
           <p>
             Witness the Spooky Screen Spectacle, a collection of horror films that range from eerie classics to contemporary nightmares. Immerse yourself in tales that linger long after the credits roll.
           </p>
         </article>
       </section>
-      <section class="main-section" id="Dark Reels">
+      <section class="main-section" id="Dark_Reels">
         <header>Dark Reels</header>
         <article>
           <p>
@@ -144,8 +138,8 @@
           </p>
         </article>
       </section>
-      <section class="main-section" id="Eerie Entertainment">
-        <header>Eerie Entertainment Escapade</header>
+      <section class="main-section" id="Eerie_Entertainment">
+        <header>Eerie Entertainment</header>
         <article>
           <p>Embark on an Eerie Entertainment Escapade, where every film is a journey into the unknown. Brace yourself for a rollercoaster of emotions as you navigate through the realms of horror.</p>
           <ul>
@@ -166,15 +160,15 @@
 
         </article>
       </section>
-      <section class="main-section" id="Ghastly Gallery">
-        <header>Ghastly Gallery Glimpse</header>
+      <section class="main-section" id="Ghastly_Gallery">
+        <header>Ghastly Gallery</header>
         <article><p>
           Discover the artistry of fear in our Ghastly Gallery. Each film is a carefully selected masterpiece, showcasing the beauty and terror that only the horror genre can evoke.
        Uncover the essentials of fear in Fear Flicks. From supernatural thrillers to psychological horrors, these films are the quintessence of the horror genre, promising an unforgettable journey into the unknown.</p>
         </article>
       </section>
-      <section class="main-section" id="Macabre Cinema">
-        <header>Macabre Cinema Moments</header>
+      <section class="main-section" id="Macabre_Cinema">
+        <header>Macabre Cinema</header>
         <article><p>
          Step into Macabre Cinema, where each frame is a brushstroke of terror on the canvas of your imagination. Immerse yourself in moments that linger, long after the credits have rolled. </p>
           <ul>
@@ -187,16 +181,16 @@
           </p>
         </article>
       </section>
-      <section class="main-section" id="Creep Corner">
-        <header>Creep Corner Chronicles</header>
+      <section class="main-section" id="Creep_corner">
+        <header>Creep Corner</header>
         <article><p>
           Dive into the Creep Corner, where chilling chronicles await. Our collection of horror films is a testament to the power of storytelling to send shivers down your spine.</p>
           <ul>
             
         </article>
       </section>
-      <section class="main-section" id="Fright Feature">
-        <header>Fright Feature Fusion</header>
+      <section class="main-section" id="Fright_Feature">
+        <header>Fright Feature</header>
         <article>
           <ul>
             <li>
@@ -204,6 +198,28 @@
               <p>The Horror Hub beckons with its top picks in the horror genre. Immerse yourself in a handpicked selection of films that range from classic horror to avant-garde nightmares, creating a comprehensive exploration of fear.</p>
             </li>
           </ul>
+          <h3>Five Sections of code</h3>
+          <code>
+            <br>function greetMe(yourName) <br>{ alert("Hello " + yourName); }
+            greetMe("World");<br><br>
+            </code>
+          <code>
+            function greetMe(yourName) <br>{ alert("Hello " + yourName); }
+            greetMe("World");<br><br>
+            </code>
+          <code>
+           function greetMe(yourName) <br>{ alert("Hello " + yourName); }
+            greetMe("World");<br><br>
+            </code>
+          <code>
+            function greetMe(yourName) <br>{ alert("Hello " + yourName); }
+            greetMe("World");<br><br>
+            </code>
+          <code>
+            function greetMe(yourName) <br>{ alert("Hello " + yourName); }
+            greetMe("World");<br><br>
+       </code>
+
         </article>
       </section>
     </main>
