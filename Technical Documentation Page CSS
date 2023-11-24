@@ -27,6 +27,8 @@ header {
   color: #FFF9FB; /*Color for all headers*/
 }
 
+
+
 #main-doc header {
   text-align: left; /* header alignments */
   margin: 0px;
@@ -85,14 +87,16 @@ section li {
   color: #D3D4D9;
 }
 
-
-@media only screen and (max-width: 815px) {
+@media only screen and ( max-width: 815px) {
   /* For mobile phones: */
   #navbar ul {
     border: 1px solid;
-    height: 207px;
+    height: 163px;
+    border-radius: 25px;
     color: #D3D4D9;
-  }
+    width:100%;
+  
+}
 
   #navbar {
     background-color: #BB0A21;
@@ -115,26 +119,136 @@ section li {
 }
 
 
-#ChillandThrill{}
 
-#Scream Scene {}
+#Chill_Thrill{
+  border: 1px solid;
+  border-radius: 15px;
+  border-style: outset;
+  padding-left: 15px;
+  border-color: #BB0A21;
+}
 
-#Horror Hub{}
+#Scream_Scene {
+   border: 1px solid;
+  border-radius: 15px;
+  border-color: #BB0A21;
+  border-style: outset;
+  padding-left: 15px;
+  /* border-color: #D3D4D9; */
+}
 
-#Fear Flicks {}
+#Horror_Hub{
+   border: 1px solid;
+  border-radius: 15px;
+  border-color: #BB0A21;
+  border-style: outset;
+  padding-left: 15px;
+  /* border-color: #D3D4D9; */
+}
 
-#Dread Domain {}
+#Fear_Flicks {
+   border: 1px solid;
+  border-radius: 15px;
+  border-color: #BB0A21;
+  border-style: outset;
+  padding-left: 15px;
+  /* border-color: #D3D4D9; */
+}
 
-#Terror Theater{}
+#Dread_Domain {
+   border: 1px solid;
+  border-radius: 15px;
+  border-color: #BB0A21;
+  border-style: outset;
+  padding-left: 15px;
+  /* border-color: #D3D4D9; */
+}
 
-#Spooky Screen{}
+#Terror_Theater{
+   border: 1px solid;
+  border-radius: 15px;
+  border-color: #BB0A21;
+  border-style: outset;
+  padding-left: 15px;
+  /* border-color: #D3D4D9; */
+}
 
-#Nightmare Nook {}
+#Spooky_Screen{
+   border: 1px solid;
+  border-radius: 15px;
+  border-color: #BB0A21;
+  border-style: outset;
+  padding-left: 15px;
+  /* border-color: #D3D4D9; */
+}
 
-#Dark Reels {}
+#Nightmare_Nook { border: 1px solid;
+  border-radius: 15px;
+  border-color: #BB0A21;
+  border-style: outset;
+  padding-left: 15px;
+  /* border-color: #D3D4D9; */
+}
 
-#Eerie Entertainment {}
+#Dark_Reels {
+   border: 1px solid;
+  border-radius: 15px;
+  border-color: #BB0A21;
+  border-style: outset;
+  padding-left: 15px;
+  /* border-color: #D3D4D9; */
+}
 
-#Fright Feature {}
+#Eerie_Entertainment {
+   border: 1px solid;
+  border-radius: 15px;
+  border-color: #BB0A21;
+  border-style: outset;
+  padding-left: 15px;
+  /* border-color: #D3D4D9; */
+}
 
-#Ghastly Gallery {}
+#Fright_Feature {
+   border: 1px solid;
+  border-radius: 15px;
+  border-color: #BB0A21;
+  border-style: outset;
+  padding-left: 15px;
+
+}
+
+#Ghastly_Gallery {
+   border: 1px solid;
+  border-radius: 15px;
+  border-color: #BB0A21;
+  border-style: outset;
+  padding-left: 15px;
+  /* border-color: #D3D4D9; */
+}
+
+#Creep_corner { border: 1px solid;
+  border-radius: 15px;
+  border-color: #BB0A21;
+  border-style: outset;
+  padding-left: 15px;
+  /* border-color: #D3D4D9; */
+}
+
+#Macabre_Cinema {
+   border: 1px solid;
+  border-radius: 15px;
+  border-color: #BB0A21;
+  border-style: outset;
+  padding-left: 15px;
+  /* border-color: #D3D4D9; */
+}
+
+code {
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+h3 {
+  color: white;
+  font-family: Cursive;
+}
