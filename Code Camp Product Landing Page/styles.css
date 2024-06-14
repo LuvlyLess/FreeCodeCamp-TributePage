@@ -1,0 +1,223 @@
+/* Base font size for rem units */
+html {
+    font-size: 62.5%;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* NavBar CSS Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-size: 18px;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    width: 100%; /* Ensure header covers full width */
+}
+
+#header-img {
+    width: 75px;
+    border-radius: 15px;
+}
+
+#nav-bar {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+    background-color: darkgrey;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    color: black;
+}
+
+/* Main Body CSS Styling Starts */
+main {
+    margin: 0; /* Ensure there is no margin on main */
+}
+
+/*Hero Heading Section Starts*/
+.heroheading {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/pexels-pixabay-158729.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 5rem 0; /* Add padding to give some space to the content */
+    box-sizing: border-box;
+    margin: 0; /* Remove default margin */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Hero Heading Section Content color*/
+.herocontent {
+    color: aliceblue;
+    font-weight: 600;
+}
+
+/*Hero Gallery Section Starts*/
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the gallery items */
+    padding: 2rem; /* Add padding to gallery section */
+    margin-top: 75px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    margin-bottom: 75px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/* Gallery Content CSS styling */
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkslategrey;
+}
+
+/*Sections 1,2,3 CSS styling Starts*/
+#section1 {
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(67, 112, 216);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0; /* Remove margin */
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: #343434;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+}
+
+h3, h4, h5, h6 {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    color: #414040;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #999797;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px 25px 75px;
+}
+
+#section2 {
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+
+#section3 {
+    margin: 75px;
+}
+
+section1 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+section2 {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+section3 {
+    margin-bottom: 2rem;
+}
+
+/*Video CSS Styling Starts*/
+#video {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Form CSS Styling Starts */
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#email {
+    padding: 0.5rem;
+    font-size: 1.6rem;
+}
+
+#submit {
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #555;
+}
+
+/* Media Query */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #nav-bar {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-link {
+        width: 100%;
+        text-align: center;
+    }
+}
